@@ -1,0 +1,29 @@
+.hero-sectiion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-wrapper {
+  padding: 0 1.5rem 0 1.5rem;
+  text-align: center;
+}
+
+.hero__title {
+  color: var(--clr-light);
+  font-size: 2.5rem;
+  line-height: 40px;
+  padding: 1.125rem 3rem;
+
+  .hero__title-emphesis {
+    color: var(--clr-accent);
+  }
+}
+
+.hero__text {
+  color: var(--clr-light);
+  font-size: 0.9375rem;
+  //   font-weight: 600;
+  line-height: 28px;
+  margin: 0 0 6.0625rem 0;
+}

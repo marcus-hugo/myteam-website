@@ -1,15 +1,15 @@
 .header {
-  background: #014e56;
-  padding: 2rem 1rem;
-}
+  background: var(--clr-dark);
+  padding: 3rem 1.5rem;
 
-.header__wrapper-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+  &__wrapper-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.header__hamburger {
-  background: transparent;
-  border: none;
+  &__hamburger {
+    background: transparent;
+    border: none;
+  }
 }
