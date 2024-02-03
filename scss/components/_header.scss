@@ -1,0 +1,15 @@
+.header {
+  background: #014e56;
+  padding: 2rem 1rem;
+}
+
+.header__wrapper-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__hamburger {
+  background: transparent;
+  border: none;
+}
