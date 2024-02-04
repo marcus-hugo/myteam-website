@@ -1,5 +1,40 @@
 .contact-section {
   position: relative;
   background: var(--clr-accent);
-  //   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__title {
+  color: var(--clr-green-800);
+  text-align: center;
+  font-size: 32px;
+  line-height: 32px;
+  padding: 83px 24px 24px 24px;
+}
+
+.contact__btn {
+  font-size: 18px;
+  line-height: 28px;
+  background: transparent;
+  border: none;
+  border-radius: 25px;
+  outline: 2px solid var(--clr-green-800);
+  padding: 9px 33px;
+}
+
+.contact__image {
+  align-self: start;
+  margin-top: -32px;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.footer__copyright {
+  margin: 0 0 64px 0;
 }

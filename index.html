@@ -118,34 +118,56 @@
       </section>
 
       <section class="contact-section">
-        <h2>Ready to get started?</h2>
+        <h2 class="contact__title">Ready to get started?</h2>
         <div>
-          <button>contact us</button>
+          <button class="contact__btn">contact us</button>
         </div>
 
-        <img src="assets/bg-pattern-home-6-about-5.svg" width="200" height="144" aria-hidden="true" alt="" />
+        <img class="contact__image" src="assets/bg-pattern-home-6-about-5.svg" width="200" height="144" aria-hidden="true" alt="" />
       </section>
     </main>
-    <footer>
-      <img src="assets/logo.svg" width="160" height="40" alt="" aria-hidden="true" />
-      <nav>
-        <ul>
+
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <img class="footer__logo" src="assets/logo.svg" width="160" height="40" alt="" aria-hidden="true" />
+
+        <nav>
+          <ul class="footer__ul">
+            <li>
+              <a href="">home</a>
+            </li>
+            <li>
+              <a href="">about</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address class="footer__address">
+          <p>987 Hillcrest Lane</p>
+          <p>Irvine, CA</p>
+          <p>California 92714</p>
+          <p>Call Us : 949-833-7432</p>
+        </address>
+
+        <ul class="social-links">
           <li>
-            <a href="">home</a>
+            <a href="">
+              <img src="/assets/icon-facebook.svg" width="24" height="24" alt="" />
+            </a>
           </li>
           <li>
-            <a href="">about</a>
+            <a href="">
+              <img src="/assets/icon-pinterest.svg" width="24" height="24" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="/assets/icon-twitter.svg" width="24" height="24" alt="" />
+            </a>
           </li>
         </ul>
-      </nav>
-
-      <address>
-        <p>987 Hillcrest Lane</p>
-        <p>Irvine, CA</p>
-        <p>California 92714</p>
-        <p>Call Us : 949-833-7432</p>
-      </address>
-      Copyright 2020. All Rights Reserved
+        <p class="footer__copyright">Copyright 2020. All Rights Reserved</p>
+      </div>
     </footer>
   </body>
 </html>
