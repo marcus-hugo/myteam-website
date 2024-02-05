@@ -6,6 +6,7 @@ body {
 body {
   font-family: "Livvic", sans-serif;
   background: var(--clr-dark);
+  color: var(--clr-light);
   position: relative;
 }
 
@@ -22,4 +23,8 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+a {
+  color: inherit;
 }

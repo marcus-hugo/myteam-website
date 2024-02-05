@@ -1,0 +1,24 @@
+.about {
+  position: relative;
+
+  &__text {
+    padding: 0 0 1rem 0;
+  }
+
+  &__cover-box {
+    width: 100px;
+    height: 100px;
+    background: var(--clr-dark);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  &__image {
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    z-index: -1;
+  }
+}
