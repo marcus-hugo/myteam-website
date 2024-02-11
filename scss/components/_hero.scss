@@ -14,9 +14,16 @@
     line-height: 40px;
     padding: 1.125rem 3rem;
 
-    &__title-emphesis {
-      color: var(--clr-accent);
+    @media (min-width: 768px) {
+      font-size: 64px;
+      line-height: 56px;
+      max-width: 683px;
+      padding: 0 9rem;
+      margin-bottom: 24px;
     }
+  }
+  &__title-emphesis {
+    color: var(--clr-accent);
   }
 
   &__text {
@@ -24,5 +31,10 @@
     font-size: 0.9375rem;
     line-height: 28px;
     margin: 0 0 6.0625rem 0;
+
+    @media (min-width: 768px) {
+      padding: 0 8rem;
+      margin-bottom: 156px;
+    }
   }
 }

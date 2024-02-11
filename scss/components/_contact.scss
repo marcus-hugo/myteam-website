@@ -5,12 +5,38 @@
   flex-direction: column;
   align-items: center;
 
+  @media (min-width: 768px) {
+    padding-top: 10px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 84px;
+      position: relative;
+      top: 65px;
+      left: -20px;
+    }
+  }
+
   &__title {
     color: var(--clr-green-800);
     text-align: center;
     font-size: 2rem;
     line-height: 32px;
     padding: 5.25rem 1.5rem 1.5rem 1.5rem;
+
+    @media (min-width: 768px) {
+      padding: 0;
+    }
   }
 
   &__btn {
@@ -26,6 +52,11 @@
 
   &__image {
     align-self: start;
-    margin-top: -32px;
+    // margin-top: -32px;
+
+    @media (min-width: 768px) {
+      position: relative;
+      bottom: -20px;
+    }
   }
 }

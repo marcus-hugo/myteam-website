@@ -12,12 +12,24 @@
     &-emphesis {
       color: var(--clr-blue-light);
     }
+
+    @media (min-width: 768px) {
+      max-width: 573px;
+      margin: 0 auto;
+      padding: 0 3.5rem 1.5625rem 3.5rem;
+    }
   }
 
   &__ul {
     padding: 0 1rem;
     text-align: center;
     padding: 0 0 6.625rem 0;
+
+    @media (min-width: 768px) {
+      max-width: 573px;
+      margin: 0 auto;
+      padding: 0 0 100px 0;
+    }
   }
 
   &__pattern-bottom {
@@ -44,6 +56,16 @@
     position: relative;
     z-index: 1;
     opacity: 0.8;
+
+    @media (min-width: 768px) {
+      padding: 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    figure:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -63,6 +85,7 @@
     line-height: 18px;
   }
 }
+
 .figure__image {
   width: 62px;
   height: 62px;
