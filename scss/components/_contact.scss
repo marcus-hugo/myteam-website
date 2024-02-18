@@ -37,6 +37,11 @@
     @media (min-width: 768px) {
       padding: 0;
     }
+
+    @media (min-width: 1440px) {
+      font-size: 48px;
+      line-height: 48px;
+    }
   }
 
   &__btn {
@@ -52,11 +57,14 @@
 
   &__image {
     align-self: start;
-    // margin-top: -32px;
 
     @media (min-width: 768px) {
       position: relative;
       bottom: -20px;
+    }
+
+    @media (min-width: 1440px) {
+      bottom: 0;
     }
   }
 }

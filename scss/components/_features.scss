@@ -2,6 +2,10 @@
   background: var(--clr-green-800);
   position: relative;
 
+  @media (min-width: 1440px) {
+    display: flex;
+  }
+
   &__wrapper-inner {
     display: flex;
     flex-direction: column;
@@ -20,6 +24,11 @@
     @media (min-width: 768px) {
       margin: 100px 0 32px 1.5rem;
     }
+
+    @media (min-width: 1440px) {
+      margin-bottom: 54px;
+      margin-top: 140px;
+    }
   }
 
   &__title {
@@ -27,12 +36,22 @@
     font-size: 2rem;
     line-height: 32px;
     padding: 0 6.375rem 3.5rem 1.5rem;
+
+    @media (min-width: 1440px) {
+      font-size: 48px;
+      line-height: 48px;
+    }
   }
 
   &__image {
     position: absolute;
     top: 0;
     right: -100px;
+
+    @media (min-width: 1440px) {
+      bottom: 0;
+      top: initial;
+    }
   }
 
   &__ul {
@@ -42,6 +61,11 @@
       max-width: 573px;
       margin: 0 auto;
       padding: 0 1.5rem 100px 0;
+    }
+
+    @media (min-width: 1440px) {
+      margin-top: 198px;
+      padding-bottom: 140px;
     }
   }
 
