@@ -7,6 +7,11 @@
   &__wrapper {
     padding: 0 1.5rem 0 1.5rem;
     text-align: center;
+
+    @media (min-width: 1440px) {
+      display: flex;
+      align-items: baseline;
+    }
   }
 
   &__title {
@@ -32,14 +37,18 @@
     padding: 0 0 1rem 0;
 
     @media (min-width: 768px) {
-      //   padding: 0 8rem;
-      margin-bottom: 156px;
-    }
-
-    @media (min-width: 768px) {
       max-width: 450px;
+      // margin-bottom: 156px;
       margin-bottom: 112px;
       padding-bottom: 0;
+    }
+
+    @media (min-width: 1440px) {
+      font-size: 18px;
+      line-height: 28px;
+      text-align: left;
+      max-width: 730px;
+      margin-bottom: 108px;
     }
   }
 
@@ -62,5 +71,17 @@
     @media (min-width: 768px) {
       bottom: 1px;
     }
+  }
+}
+
+.line-about {
+  display: none;
+
+  @media (min-width: 1440px) {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: var(--clr-accent);
+    margin: 0 0 40px 0;
   }
 }

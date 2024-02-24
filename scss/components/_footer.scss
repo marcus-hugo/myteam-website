@@ -17,6 +17,10 @@
       padding: 56px 2rem 0 2rem;
       bottom: 0;
     }
+
+    @media (min-width: 1440px) {
+      padding-top: 42px;
+    }
   }
 
   &__logo {
