@@ -115,6 +115,11 @@
     }
   }
 
+  &__social-links-li {
+    display: grid;
+    align-items: center;
+  }
+
   &__copyright {
     font-size: 15px;
     line-height: 25px;
@@ -137,5 +142,11 @@
 
   .layout-right {
     text-align: right;
+  }
+}
+
+.social-link:hover > svg {
+  .fill {
+    fill: var(--clr-accent);
   }
 }

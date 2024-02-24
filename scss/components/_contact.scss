@@ -53,6 +53,12 @@
     outline: 2px solid var(--clr-green-800);
     padding: 0.5625rem 2.0625rem;
     color: var(--clr-green-800);
+    text-decoration: none;
+  }
+
+  &__btn:hover {
+    background: var(--clr-green-800);
+    color: var(--clr-light);
   }
 
   &__image {

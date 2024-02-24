@@ -54,10 +54,14 @@
   &__li {
     font-size: 18px;
     line-height: 28px;
+  }
 
-    a {
-      text-decoration: none;
-    }
+  &__link {
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: var(--clr-accent);
   }
 
   &__btn {
@@ -75,5 +79,10 @@
       display: grid;
       align-items: center;
     }
+  }
+
+  &__btn:hover {
+    background: var(--clr-light);
+    color: var(--clr-dark);
   }
 }

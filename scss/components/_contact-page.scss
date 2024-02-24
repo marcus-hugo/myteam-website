@@ -124,6 +124,7 @@
     input,
     textarea {
       max-width: 542px;
+      color: var(--clr-light);
     }
 
     input {
@@ -133,6 +134,22 @@
       font-size: 15px;
       line-height: 25px;
       padding: 1rem;
+    }
+
+    input:hover {
+      cursor: pointer;
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border-bottom: 1px solid var(--clr-blue-light);
+    }
+
+    input:user-invalid,
+    textarea:user-invalid {
+      outline: none;
+      border-bottom: 1px solid var(--clr-accent);
     }
 
     input::placeholder,

@@ -92,6 +92,11 @@
     bottom: -30px;
   }
 
+  &__li-btn:hover {
+    background: var(--clr-blue-light);
+    cursor: pointer;
+  }
+
   &__li-last {
     max-width: 327px;
     background: var(--clr-green-900);
